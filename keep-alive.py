@@ -125,7 +125,6 @@ def ReleaseKey(vkey: int) -> None:
     SendInput(1, ctypes.pointer(input_), ctypes.sizeof(input_))
 
 ### Main ###
-
 if __name__ == "__main__":
     virtual_key = 0x14 # Caps Lock
     interval = 60 * 12 # 12 minutes
