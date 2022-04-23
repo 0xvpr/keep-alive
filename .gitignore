@@ -127,3 +127,18 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+### My Ignores ###
+__pycache__
+secrets/
+venv
+env
+
+*.o
+*.a
+*.so
+*.bin
+*.dll
+*.lib
+*.obj
+*.out
